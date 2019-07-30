@@ -264,7 +264,7 @@ func (this *GuessKeyMode) GuessKeyPartten(finall bool) {
 				tmp_partten = tmp_partten[len(this.TrueSplitDelimiter):]
 			}
 		}
-		//finall partten for key : 9305:status:471721049 : :9403:rankforbid:[0-9a-z]
+		//finall partten for key : 9305:status:47123345722211320149 : :9403:rankforbid:[0-9a-z]
 		log.Debugf("====>finall partten for key : %s : %s", k, tmp_partten)
 
 		delete(this.GuseKeySampleEntry.KeySamples, k)
